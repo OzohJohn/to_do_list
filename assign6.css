@@ -1,0 +1,90 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+
+#btn1{
+    padding: 4px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 45%;
+   
+    
+    
+}
+
+#btn1.hidden{
+visibility: hidden;
+   
+    
+    
+}
+
+
+
+.sub-container{
+    height: 200px;
+    width: 600px;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+   
+
+    visibility: hidden;
+}
+
+.sub-container2{
+    visibility: visible;
+}
+
+
+.heading{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 5px 0 10px 0;
+}
+
+.text-container{
+    width: 80%;
+    border: none;
+    background-color: rgba(180, 178, 178, 0.356);
+    padding: 5px;
+}
+
+.list-container{
+    margin-top: 10px;
+    width: 82%;
+    margin-left: 33px;
+   
+   
+}
+
+.list{
+    float:left;
+    background-color: rgba(180, 178, 178, 0.356) ;
+}
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.checkbox{
+    float: left;
+}
+
+.abb{
+    text-decoration: line-through;
+}
